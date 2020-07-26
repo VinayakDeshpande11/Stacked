@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Stacked
 //
-//  Created by Raj Jakasaniya on 24/07/20.
+//  Created by Raj Jakasaniya on 25/07/20.
 //  Copyright © 2020 Vinayak Deshpande. All rights reserved.
 //
 
@@ -12,11 +12,21 @@ import CoreData
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
+    var window: UIWindow?
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        configureView()
         return true
+    }
+    
+    func configureView() {
+        let viewController = MainViewController()
+        let navigation: UINavigationController = UINavigationController(rootViewController: viewController)
+        navigation.isNavigationBarHidden = true
+        window = UIWindow(frame: UIScreen.main.bounds)
+        window?.rootViewController = navigation
+        window?.makeKeyAndVisible()
     }
 
     // MARK: UISceneSession Lifecycle

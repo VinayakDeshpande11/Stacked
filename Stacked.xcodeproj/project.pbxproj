@@ -9,13 +9,22 @@
 /* Begin PBXBuildFile section */
 		B84EDA1C24CAED900092A4A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84EDA1B24CAED900092A4A2 /* AppDelegate.swift */; };
 		B84EDA1E24CAED900092A4A2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84EDA1D24CAED900092A4A2 /* SceneDelegate.swift */; };
-		B84EDA2024CAED900092A4A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84EDA1F24CAED900092A4A2 /* ViewController.swift */; };
-		B84EDA2324CAED900092A4A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B84EDA2124CAED900092A4A2 /* Main.storyboard */; };
 		B84EDA2624CAED900092A4A2 /* Stacked.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B84EDA2424CAED900092A4A2 /* Stacked.xcdatamodeld */; };
 		B84EDA2824CAED920092A4A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B84EDA2724CAED920092A4A2 /* Assets.xcassets */; };
 		B84EDA2B24CAED920092A4A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B84EDA2924CAED920092A4A2 /* LaunchScreen.storyboard */; };
 		B84EDA3624CAED920092A4A2 /* StackedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84EDA3524CAED920092A4A2 /* StackedTests.swift */; };
 		B84EDA4124CAED920092A4A2 /* StackedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84EDA4024CAED920092A4A2 /* StackedUITests.swift */; };
+		B84EDA4F24CB00A00092A4A2 /* CustomContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84EDA4E24CB00A00092A4A2 /* CustomContainerView.swift */; };
+		B84EDA5624CB018F0092A4A2 /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B84EDA5124CB018F0092A4A2 /* Montserrat-Medium.ttf */; };
+		B84EDA5724CB018F0092A4A2 /* Montserrat-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B84EDA5224CB018F0092A4A2 /* Montserrat-Thin.ttf */; };
+		B84EDA5824CB018F0092A4A2 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B84EDA5324CB018F0092A4A2 /* Montserrat-Bold.ttf */; };
+		B84EDA5924CB018F0092A4A2 /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B84EDA5424CB018F0092A4A2 /* Montserrat-SemiBold.ttf */; };
+		B84EDA5A24CB018F0092A4A2 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B84EDA5524CB018F0092A4A2 /* Montserrat-Regular.ttf */; };
+		B84EDA6124CB01970092A4A2 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84EDA5D24CB01970092A4A2 /* Fonts.swift */; };
+		B84EDA6324CB01970092A4A2 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84EDA5F24CB01970092A4A2 /* Colors.swift */; };
+		B84EDA6524CB05310092A4A2 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84EDA6424CB05310092A4A2 /* MainViewController.swift */; };
+		B84EDA6724CB1E0C0092A4A2 /* StackedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84EDA6624CB1E0C0092A4A2 /* StackedView.swift */; };
+		B84EDA6F24CC6EF80092A4A2 /* DemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84EDA6E24CC6EF70092A4A2 /* DemoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +48,6 @@
 		B84EDA1824CAED900092A4A2 /* Stacked.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stacked.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B84EDA1B24CAED900092A4A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B84EDA1D24CAED900092A4A2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B84EDA1F24CAED900092A4A2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B84EDA2224CAED900092A4A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B84EDA2524CAED900092A4A2 /* Stacked.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Stacked.xcdatamodel; sourceTree = "<group>"; };
 		B84EDA2724CAED920092A4A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B84EDA2A24CAED920092A4A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +58,17 @@
 		B84EDA3C24CAED920092A4A2 /* StackedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StackedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B84EDA4024CAED920092A4A2 /* StackedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackedUITests.swift; sourceTree = "<group>"; };
 		B84EDA4224CAED920092A4A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B84EDA4E24CB00A00092A4A2 /* CustomContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomContainerView.swift; sourceTree = "<group>"; };
+		B84EDA5124CB018F0092A4A2 /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Medium.ttf"; sourceTree = "<group>"; };
+		B84EDA5224CB018F0092A4A2 /* Montserrat-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Thin.ttf"; sourceTree = "<group>"; };
+		B84EDA5324CB018F0092A4A2 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		B84EDA5424CB018F0092A4A2 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
+		B84EDA5524CB018F0092A4A2 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		B84EDA5D24CB01970092A4A2 /* Fonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		B84EDA5F24CB01970092A4A2 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		B84EDA6424CB05310092A4A2 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		B84EDA6624CB1E0C0092A4A2 /* StackedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackedView.swift; sourceTree = "<group>"; };
+		B84EDA6E24CC6EF70092A4A2 /* DemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +119,14 @@
 		B84EDA1A24CAED900092A4A2 /* Stacked */ = {
 			isa = PBXGroup;
 			children = (
-				B84EDA1B24CAED900092A4A2 /* AppDelegate.swift */,
-				B84EDA1D24CAED900092A4A2 /* SceneDelegate.swift */,
-				B84EDA1F24CAED900092A4A2 /* ViewController.swift */,
-				B84EDA2124CAED900092A4A2 /* Main.storyboard */,
-				B84EDA2724CAED920092A4A2 /* Assets.xcassets */,
-				B84EDA2924CAED920092A4A2 /* LaunchScreen.storyboard */,
+				B88F1FF824CD2BC700346F93 /* Model */,
+				B88F1FF724CD2BB800346F93 /* Controllers */,
+				B88F1FF624CD2BA500346F93 /* Views */,
+				B88F1FF524CD2B8B00346F93 /* Resources */,
+				B88F1FF424CD2B8100346F93 /* App */,
+				B84EDA5B24CB01970092A4A2 /* Helper */,
+				B84EDA5024CB018F0092A4A2 /* Fonts */,
 				B84EDA2C24CAED920092A4A2 /* Info.plist */,
-				B84EDA2424CAED900092A4A2 /* Stacked.xcdatamodeld */,
 			);
 			path = Stacked;
 			sourceTree = "<group>";
@@ -129,6 +147,71 @@
 				B84EDA4224CAED920092A4A2 /* Info.plist */,
 			);
 			path = StackedUITests;
+			sourceTree = "<group>";
+		};
+		B84EDA5024CB018F0092A4A2 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				B84EDA5124CB018F0092A4A2 /* Montserrat-Medium.ttf */,
+				B84EDA5224CB018F0092A4A2 /* Montserrat-Thin.ttf */,
+				B84EDA5324CB018F0092A4A2 /* Montserrat-Bold.ttf */,
+				B84EDA5424CB018F0092A4A2 /* Montserrat-SemiBold.ttf */,
+				B84EDA5524CB018F0092A4A2 /* Montserrat-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		B84EDA5B24CB01970092A4A2 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				B84EDA5D24CB01970092A4A2 /* Fonts.swift */,
+				B84EDA5F24CB01970092A4A2 /* Colors.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		B88F1FF424CD2B8100346F93 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				B84EDA1B24CAED900092A4A2 /* AppDelegate.swift */,
+				B84EDA1D24CAED900092A4A2 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		B88F1FF524CD2B8B00346F93 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B84EDA2724CAED920092A4A2 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B88F1FF624CD2BA500346F93 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B84EDA2924CAED920092A4A2 /* LaunchScreen.storyboard */,
+				B84EDA4E24CB00A00092A4A2 /* CustomContainerView.swift */,
+				B84EDA6624CB1E0C0092A4A2 /* StackedView.swift */,
+				B84EDA6E24CC6EF70092A4A2 /* DemoView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B88F1FF724CD2BB800346F93 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B84EDA6424CB05310092A4A2 /* MainViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B88F1FF824CD2BC700346F93 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B84EDA2424CAED900092A4A2 /* Stacked.xcdatamodeld */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,9 +318,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B84EDA5924CB018F0092A4A2 /* Montserrat-SemiBold.ttf in Resources */,
+				B84EDA5824CB018F0092A4A2 /* Montserrat-Bold.ttf in Resources */,
+				B84EDA5A24CB018F0092A4A2 /* Montserrat-Regular.ttf in Resources */,
 				B84EDA2B24CAED920092A4A2 /* LaunchScreen.storyboard in Resources */,
+				B84EDA5624CB018F0092A4A2 /* Montserrat-Medium.ttf in Resources */,
+				B84EDA5724CB018F0092A4A2 /* Montserrat-Thin.ttf in Resources */,
 				B84EDA2824CAED920092A4A2 /* Assets.xcassets in Resources */,
-				B84EDA2324CAED900092A4A2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,9 +349,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B84EDA2024CAED900092A4A2 /* ViewController.swift in Sources */,
+				B84EDA6124CB01970092A4A2 /* Fonts.swift in Sources */,
+				B84EDA6324CB01970092A4A2 /* Colors.swift in Sources */,
+				B84EDA4F24CB00A00092A4A2 /* CustomContainerView.swift in Sources */,
+				B84EDA6724CB1E0C0092A4A2 /* StackedView.swift in Sources */,
 				B84EDA1C24CAED900092A4A2 /* AppDelegate.swift in Sources */,
 				B84EDA1E24CAED900092A4A2 /* SceneDelegate.swift in Sources */,
+				B84EDA6524CB05310092A4A2 /* MainViewController.swift in Sources */,
+				B84EDA6F24CC6EF80092A4A2 /* DemoView.swift in Sources */,
 				B84EDA2624CAED900092A4A2 /* Stacked.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -301,14 +393,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B84EDA2124CAED900092A4A2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B84EDA2224CAED900092A4A2 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B84EDA2924CAED920092A4A2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
