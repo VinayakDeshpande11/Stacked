@@ -28,5 +28,5 @@ iOS UI Component, which can be used for form filling in sequence
 ```
 
 ```
- func number(ofViewIn stackedView: StackedView) -> Int {
+ func number(ofViewIn stackedView: StackedView) -> Int
 ```
